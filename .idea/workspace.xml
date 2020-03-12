@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d720218-ac09-4e49-9777-94bdae1a9887" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/adp3/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/adp3/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/adp3/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/adp3/Manager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/za/ac/cput/adp3/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/za/ac/cput/adp3/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/za/ac/cput/adp3/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/adp3/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/za/ac/cput/adp3/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/adp3/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/za/ac/cput/adp3/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/za/ac/cput/adp3/AppTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -52,6 +52,9 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -61,7 +64,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.AppTest.testPolymorphism">
     <configuration name="AppTest.testInheritance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Assignment3-ADP" />
       <extension name="coverage">
@@ -78,8 +81,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AppTest.testPolymorphism" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assignment3-ADP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="za.ac.cput.adp3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="za.ac.cput.adp3" />
+      <option name="MAIN_CLASS_NAME" value="za.ac.cput.adp3.AppTest" />
+      <option name="METHOD_NAME" value="testPolymorphism" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AppTest.testPolymorphism" />
         <item itemvalue="JUnit.AppTest.testInheritance" />
       </list>
     </recent_temporary>
@@ -98,26 +118,46 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="488" y="88" key="#com.intellij.ide.util.MemberChooser" timestamp="1583917387561">
+    <state x="275" y="43" key="#Project_Structure" timestamp="1584000480419">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="488" y="88" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1583917387561" />
-    <state width="1323" height="171" key="GridCell.Tab.0.bottom" timestamp="1583932198437">
+    <state x="275" y="43" key="#Project_Structure/0.0.1366.768@0.0.1366.768" timestamp="1584000480419" />
+    <state x="488" y="88" key="#com.intellij.ide.util.MemberChooser" timestamp="1584000036806">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="171" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1583932198437" />
-    <state width="1323" height="171" key="GridCell.Tab.0.center" timestamp="1583932198437">
+    <state x="488" y="88" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1584000036806" />
+    <state width="1323" height="171" key="GridCell.Tab.0.bottom" timestamp="1584000741347">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="171" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1583932198437" />
-    <state width="1323" height="171" key="GridCell.Tab.0.left" timestamp="1583932198437">
+    <state width="1323" height="171" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1584000741347" />
+    <state width="1323" height="171" key="GridCell.Tab.0.center" timestamp="1584000741347">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="171" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1583932198437" />
-    <state width="1323" height="171" key="GridCell.Tab.0.right" timestamp="1583932198437">
+    <state width="1323" height="171" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1584000741347" />
+    <state width="1323" height="171" key="GridCell.Tab.0.left" timestamp="1584000741347">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="171" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1583932198437" />
+    <state width="1323" height="171" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1584000741347" />
+    <state width="1323" height="171" key="GridCell.Tab.0.right" timestamp="1584000741347">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="171" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1584000741347" />
+    <state width="1323" height="216" key="GridCell.Tab.1.bottom" timestamp="1584000739079">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="216" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1584000739079" />
+    <state width="1323" height="216" key="GridCell.Tab.1.center" timestamp="1584000739079">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="216" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1584000739079" />
+    <state width="1323" height="216" key="GridCell.Tab.1.left" timestamp="1584000739078">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="216" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1584000739078" />
+    <state width="1323" height="216" key="GridCell.Tab.1.right" timestamp="1584000739079">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="216" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1584000739079" />
     <state x="359" y="209" key="com.intellij.ide.util.TipDialog" timestamp="1583998156327">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
